@@ -9,4 +9,4 @@ RUN adduser --disabled-password --gecos "" yeoman; \
 ENV HOME /home/yeoman
 USER yeoman
 WORKDIR /home/yeoman/code
-RUN yo backbone mytestapp
+#RUN yo backbone mytestapp
