@@ -1,6 +1,7 @@
 FROM dockerfile/nodejs
 MAINTAINER  zhvxxh <zhvxxh@gmail.com>
-
+RUN apt-get update 
+RUN apt-get install -y socat
 RUN  npm install -g yo
 RUN  npm install -g bower
 
