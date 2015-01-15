@@ -12,6 +12,7 @@ RUN npm install -g generator-backbone
 RUN  npm install -g generator-webapp
 RUN npm install -g grunt-cli
 RUN npm install -g phantomjs
+RUN npm install  -g generator-angular
 RUN adduser --disabled-password --gecos "" yeoman; \
   echo "yeoman ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 ENV HOME /home/yeoman
